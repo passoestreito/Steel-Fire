@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png.png" alt="avatar do Vinícius" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Vinícius</p>
+        <h1>Eu estudo progamação na plataforma Alura</h1>
+        <p>Sou estudante do terceiro ano do ensino médio e, atualmente, estou aprimorando meus conhecimentos
+em programação por meio da plataforma Alura. Já realizei projetos utilizando as linguagens 
+Scratch, HTML, p5.js e o ambiente de desenvolvimento Visual Studio Code (VSCode). Esses projetos 
+me proporcionaram uma sólida compreensão de conceitos fundamentais de programação e desenvolvimento web, 
+além de me permitir explorar diferentes abordagens criativas na resolução de problemas.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">P5js</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Tetris.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Tetris Retrô: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Um remake do clássico Tetris com visual retrô e jogabilidade fluida, 
+                            desenvolvido em JavaScript e CSS. O projeto recria a experiência nostálgica do jogo original,
+                            com uma interface simples e responsiva que funciona diretamente no navegador.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download.jpg" class="card-img-top" alt="Imagem do projeto Mário Retrô">
+                    <div class="card-body">
+                        <h5 class="card-title">Mário Retrô: remake de Mario Runner</h5>
+                        <p class="card-text">O projeto "Mario Runner" é um jogo 2D simples desenvolvido para navegadores,
+                            inspirado no universo do Mario. Nele, o personagem corre automaticamente por um cenário contínuo,
+                            e o jogador deve fazê-lo pular para evitar canos que aparecem como obstáculos.
+                            A mecânica principal gira em torno do pulo, acionado por tecla ou toque na tela, e da detecção de
+                            colisões que determinam o fim do jogo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/images.jpg" class="card-img-top" alt="Imagem do projeto jogo da velha virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">jogo da velha: Um remake do jogo 
+                        </h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa divertida e educativa,
+                            apresentando o clássico Jogo da Velha com um toque especial. Além de desafiar os jogadores, ele 
+                            inclui informações interessantes sobre astronomia. A cada jogada, o jogo revela curiosidades sobre constelações,
+                            eclipses e a forma da Terra, proporcionando uma experiência única de aprendizado enquanto se joga. 
+                            A interação entre as jogadas e as informações educativas torna o jogo ainda mais envolvente e educativo para os jogadores
+                            de todas as idades.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tetris Retrô: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um remake do clássico Tetris com visual retrô e jogabilidade fluida, 
+                        desenvolvido em JavaScript e CSS. O projeto recria a experiência nostálgica do jogo original, 
+                        com uma interface simples e responsiva que funciona diretamente no navegador.</p>
+                    <p>A estrutura do site é construída com HTML, responsável por definir a semântica e a organização do conteúdo. 
+                        Já o CSS é utilizado para aplicar O HTML organiza o conteúdo começando por um cabeçalho com o título do site, seguido por uma divisão principal, 
+                        container que exibe o propósito da página e uma seção flexível (.livros) com a coleção de livros. Cada obra é apresentada em seu próprio contêiner
+                        livro, incluindo a imagem da capa, informações detalhadas e um link para compra. O design responsivo é assegurado pelo uso da meta tag 
+                        viewport e por um layout flexível que se adapta a diferentes tamanhos de tela.los visuais à página, como cores, fontes e a disposição dos elemento na tela.</p>
+                    <p></p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração do jogo.</p>
+                    <img src="img/Tetris.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa de um simulador de um jogo retrô">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://passoestreito.github.io/Tetris-/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/passoestreito/Tetris-">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mário Retrô: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto "Mario Runner" é um jogo 2D simples desenvolvido para navegadores, inspirado no universo do Mario.
+                        Nele, o personagem corre automaticamente por um cenário contínuo, e o jogador deve fazê-lo pular para evitar 
+                        canos que aparecem como obstáculos. A mecânica principal gira em torno do pulo, acionado por tecla ou toque na tela,
+                        e da detecção de colisões que determinam o fim do jogo.</p>
+                    <p>O desenvolvimento foi feito utilizando HTML5 para a estrutura da página e dos elementos do jogo, CSS3 para as animações e
+                        estilização do personagem, do cenário e dos obstáculos, e JavaScript puro (vanilla) para implementar a lógica principal.
+                        Toda a movimentação do jogo, como o deslocamento dos canos e o controle de pulo, foi criada sem o uso de bibliotecas externas.</p>
+                    <p>O desenvolvimento foi feito utilizando HTML5 para a estrutura da página e dos elementos do jogo, CSS3 para as animações e estilização
+                        do personagem, do cenário e dos obstáculos, e JavaScript puro (vanilla) para implementar a lógica principal. Toda a movimentação do jogo,
+                        como o deslocamento dos canos e o controle de pulo, foi criada sem o uso de bibliotecas externas.</p>
+                    <p>Esse projeto me permitiu praticar conceitos importantes como manipulação do DOM em tempo real, uso de animações CSS sincronizadas com eventos
+                        JavaScript, além de uma introdução à lógica de game loop e controle de interações com o usuário. Trata-se de uma experiência introdutória ao
+                        desenvolvimento de jogos com tecnologias web, com foco em fluidez visual e jogabilidade simples.</p>
+                    <img src="img/download.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Mário world">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://passoestreito.github.io/Mario-Wolrd/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/passoestreito/Mario-Wolrd/tree/main">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo da velha: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um jogo da velha interativo e educativo, desenvolvido para proporcionar uma experiência
+                        divertida e desafiadora. A aplicação utiliza uma série de lógicas e gráficos simples, associados a 
+                        diferentes elementos (como os símbolos de "X" e "O") para criar um ambiente de aprendizado envolvente. 
+                        O objetivo é ensinar conceitos básicos de lógica e estratégia, enquanto os usuários se divertem competindo em 
+                        partidas de jogo da velha. Além disso, o jogo inclui modos de dificuldade ajustáveis, permitindo que jogadores
+                        de diferentes níveis de habilidade possam participar. Através de interações dinâmicas e uma interface amigável, 
+                        o projeto visa promover o desenvolvimento de raciocínio lógico e tomada de decisões rápidas de maneira divertida
+                        e acessível.</p>
+                    <p>Cada ator no projeto possui scripts que determinam seu comportamento em resposta a eventos específicos
+                        , como o início do jogo (quando a bandeira é clicada), cliques dos jogadores ou ações realizadas na interface.
+                        Esses eventos acionam ações como a atualização do tabuleiro, a troca de símbolos entre os jogadores, a verificação
+                        de vitórias ou empates e a exibição de mensagens informativas. Por exemplo, quando um jogador faz uma jogada, o
+                        sistema verifica automaticamente se houve uma vitória ou empate, exibindo a mensagem correspondente. Além disso,
+                        o jogo pode exibir mensagens de incentivo, alterar o visual do tabuleiro ou até mesmo mudar de nível de 
+                        dificuldade dependendo das ações do jogador.</p>
+                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch, está na sua acessibilidade e
+                        na capacidade de envolver aprendizes de diversas idades no desenvolvimento de habilidades de lógica e raciocínio
+                        estratégico de maneira prática e intuitiva. O uso de elementos dinâmicos, como a atualização do tabuleiro,
+                        movimentos dos jogadores e feedback visual, contribui para uma experiência de jogo mais envolvente e interativa.
+                        Essa abordagem estimula os usuários a pensarem de forma ativa sobre as jogadas e as consequências de suas ações,
+                        promovendo um aprendizado mais significativo e estimulante, onde o usuário se torna protagonista do seu próprio 
+                        processo de aprendizagem.</p>
+                    <img src="img/images.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://passoestreito.github.io/jogo-da-velh4/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/passoestreito">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Vinícius Miranda</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
